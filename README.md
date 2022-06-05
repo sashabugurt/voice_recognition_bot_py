@@ -23,7 +23,7 @@ We also developed [the code](https://github.com/sashabugurt/voice_recognition_bo
 * [data_io package](https://github.com/mravanelli/SincNet/blob/master/data_io.py)
 
 ## Neuro network training
-We used 4 .wav files, one for each speaker (duration 1 hour 20 min).  Then the data was manually cleansed from other sounds except professors' voices. 
+We used 4 .wav files, one for each speaker (duration 1 hour 20 min).  The data was manually cleansed from other sounds except professors' voices. 
 
 Using our code, we splited files into audio recordings lasting from 3 to 15 seconds in accordance to the requirements of the model. With the help of our code that trains the model (a file with a list of audio recordings by the names of professors was also created there), 75% of files (580 files) were sent to training, whilst the remaining 25% (202 files) were used for testing. 
 
