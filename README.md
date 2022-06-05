@@ -34,7 +34,8 @@ epoch 80, loss_tr=0.053114 err_tr=0.019141 loss_te=0.105894 err_te=0.034324 err_
 ## Launching the model within the bot
 
 The last action was done automatically by running the model: 
-*'pip TIMIT_preparation.py $TIMIT_FOLDER $OUTPUT_FOLDER data_lists/TIMIT_all.scp (this line is used in the terminal)', where:
+
+'pip TIMIT_preparation.py $TIMIT_FOLDER $OUTPUT_FOLDER data_lists/TIMIT_all.scp (this line is used in the terminal)', where:
 * TIMIT_preparation.py - the code written by the creators of the model
 * $TIMIT_FOLDER - the folder where the pre-prepared files are stored
 * $OUTPUT_FOLDER - the folder where the audio recordings converted by the model for identification will be stored
