@@ -1,5 +1,5 @@
 # Voice_Recognition_HSE
-## Programming project HSE-2022 (Olga, Maria, Alex and Anastasia)
+## Programming project HSE-2022 (Olga Vorobieva, Maria Godunova, Alexey Zemtsov and Anastasia Radionova)
 This is a voice recognition project geared to distinguish between 4 professors of ours: Anton, Oleg, Daniel and Dasha. 
 Frontend of this project is a telegram bot (@proga_ficle_bot) where you can upload a .wav/.mp3/.mp4 file or send a voice message to receive a name of the person who is supposingly speaking in this recording.
 
