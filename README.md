@@ -44,7 +44,8 @@ The last action was done automatically by running the model:
 Next, we moved on to the step of identifying speakers. 
 
 The model was launched with the following line: 
-*'pip speaker_id.py --cfg=cfg/SincNet_TIMIT.cfg'.*
+
+'pip speaker_id.py --cfg=cfg/SincNet_TIMIT.cfg'.
 
 The file in .cfg format was obtained as a result of the previous step. The first file, speaker_id.py , was retrained by us to output the result in the format of indexes and was called 'inference.py'. Now that we have a model in the 'model_raw.pkl' format and other important files, we have moved on to creating a bot. By creating a token for the bot, installing all the necessary libraries and combining the base code to create a bot that accepts video and audio and the code 'inference.py', we have also added several commands to extract audio recordings from videos and voice messages. We created a dictionary of answers of the type "I will assume that this is {the name of the professor}", "It is obvious that {the name of the professor} is on the record". We also created voice and video folders, into which audio files were folded and converted to .wav format.
  
